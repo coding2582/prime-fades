@@ -280,6 +280,7 @@ h1 em{font-style:normal;color:var(--red-hi);}
   .band-head{margin-bottom:1.8rem;}
   .band-foot{margin-top:2rem;padding-top:1.4rem;gap:1rem;}
   .svc-row{padding:1.15rem 0;}
+  .svc-row:nth-child(n+6){display:none;}
   .grid{grid-auto-rows:112px;gap:.5rem;}
   .story{gap:1.8rem;}
   .quote{margin-top:1.6rem;}
