@@ -212,6 +212,15 @@ h1 em{font-style:normal;color:var(--red-hi);}
 .book-menu a:hover{background:var(--red);color:#fff;}
 .book-menu a:hover small{color:rgba(255,255,255,.8);}
 
+.call-menu{min-width:250px;}
+.call-menu-label{
+  font-size:.64rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--red-hi);margin:.4rem .5rem .3rem;
+}
+.call-menu-label:first-child{margin-top:.3rem;}
+.call-addrs{margin:.4rem .5rem .2rem;padding-top:.6rem;border-top:1px solid var(--line);}
+.call-addrs li{font-size:.68rem;line-height:1.55;color:var(--bone-faint);}
+
 .burger{display:none;flex-direction:column;gap:6px;padding:.5rem;flex:none;}
 .burger span{display:block;width:24px;height:2px;background:var(--bone);
   transition:transform .3s var(--ease),opacity .2s var(--ease);}
